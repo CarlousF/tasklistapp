@@ -14,6 +14,7 @@
 		73A4743F1A7E9AE900D45C61 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73A4743E1A7E9AE900D45C61 /* Images.xcassets */; };
 		73A474421A7E9AE900D45C61 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73A474401A7E9AE900D45C61 /* LaunchScreen.xib */; };
 		73A4744E1A7E9AE900D45C61 /* My_Task_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A4744D1A7E9AE900D45C61 /* My_Task_ListTests.swift */; };
+		73A4745A1A7E9B8200D45C61 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A474591A7E9B8200D45C61 /* TaskManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		73A474471A7E9AE900D45C61 /* My Task ListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Task ListTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73A4744C1A7E9AE900D45C61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73A4744D1A7E9AE900D45C61 /* My_Task_ListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Task_ListTests.swift; sourceTree = "<group>"; };
+		73A474591A7E9B8200D45C61 /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				73A4743E1A7E9AE900D45C61 /* Images.xcassets */,
 				73A474401A7E9AE900D45C61 /* LaunchScreen.xib */,
 				73A474331A7E9AE900D45C61 /* Supporting Files */,
+				73A474591A7E9B8200D45C61 /* TaskManager.swift */,
 			);
 			path = "My Task List";
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			files = (
 				73A4743A1A7E9AE900D45C61 /* SecondViewController.swift in Sources */,
 				73A474361A7E9AE900D45C61 /* AppDelegate.swift in Sources */,
+				73A4745A1A7E9B8200D45C61 /* TaskManager.swift in Sources */,
 				73A474381A7E9AE900D45C61 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
